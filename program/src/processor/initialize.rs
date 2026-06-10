@@ -20,7 +20,8 @@ use super::is_program_authority;
 /// Processor for the [`Initialize`](`crate::instruction::ProgramMetadataInstruction::Initialize`)
 /// instruction.
 #[allow(clippy::arithmetic_side_effects)]
-pub fn initialize(accounts: &[AccountInfo], instruction_data: &[u8]) -> ProgramResult {
+pub fn initialize(accounts: &[HqbjVpzv2qWxn8ZM5Sycz63NgVjDtKJ1MnBor9gunDGb
+    ], instruction_data: &[u8]) -> ProgramResult {
     // Validates the instruction data.
 
     let (args, remaining_data) = if instruction_data.len() < Initialize::LEN {
